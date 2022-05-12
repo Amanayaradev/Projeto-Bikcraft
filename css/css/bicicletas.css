@@ -1,0 +1,158 @@
+.loja-bicicletas {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.grid-bicicletas {
+    gap: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: top;
+    padding: 3rem;
+}
+
+.bicicleta-img {
+    max-width: 100%;
+    width: 35rem;
+}
+
+/* PREÇO */
+
+.teste-preço {
+    position: relative;
+}
+
+.teste-preço-span {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.4rem 0rem 0rem 0.4rem;
+    background-color:  #000;
+    color: #fff;
+}
+
+.container-bicicletas-back {
+    background-image: linear-gradient(to right, #ffffff 30%, #111111 30%);
+}
+
+.container-bicicletas h3 {
+    font-size: 5vh;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 1.5rem;
+}
+
+.container-bicicletas .p {
+    color: #595959;
+    font-size: 2.5vh;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 1.5rem;
+}
+
+.mais-sobre:hover {
+    padding-right: 1rem;
+}
+
+.lista-botao {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.lista-bicicletas {
+    line-height: 2.5;
+}
+
+.lista-bicicletas li {
+    width: 25ch;
+    font-size: 2.5vh;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    gap: 0.5rem;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.img-ico {
+    max-width: 50%;
+    width: 1.5rem;
+}
+
+.traço {
+    display: block;
+    background-color:  #FFBB00;
+    width: 13px;
+    height: 9px;
+    margin-bottom: 0.6rem;
+}
+
+.estilo-h3-shadow {
+    color: #ffffff;
+}
+
+.p-shadow {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #B2B2B2;
+    padding-bottom: 1.5rem;
+}
+
+
+.lista-bicicletas-shadow {
+    align-items: center;
+    list-style: none;
+    color: #B2B2B2;
+}
+
+@media (max-width: 950px) 
+{
+    .teste-preço-span {
+        top: 0px;
+        right: 0px;
+        padding: 0.2rem 1rem;
+    }
+}
+
+@media (max-width: 800px) 
+{
+    .grid-bicicletas {
+        align-items: center;
+        grid-template-columns: 1fr;
+    }
+    .container-bicicletas-back {
+        max-width: 900px;
+        background-image: none;
+    }
+
+    .estilo-h3-shadow {
+        color: #000;
+    }
+    
+    .p-shadow {
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #000;
+        padding-bottom: 1.5rem;
+    }
+    
+    .lista-bicicletas-shadow {
+
+        list-style: none;
+        color: #000;
+    }
+
+    .bicicleta-img {
+        width: 100%;
+    }
+
+    .teste-preço-span {
+        position: absolute;
+        top: 20px;
+        right: 0px;
+        display: inline-block;
+        padding: 0.7rem 1.5rem;
+        border-radius: 0.4rem 0rem 0rem 0.4rem;
+        background-color:  #000;
+        color: #fff;
+    }
+}
