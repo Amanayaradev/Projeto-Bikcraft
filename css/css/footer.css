@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-um {
+   padding: 4rem;
+   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: white;
+   background-color: black;
+}
+
+.footer-dentro {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin: 0 auto;
+}
+
+.footer-bickraft {
+   display: flex;
+   justify-content: center;
+   padding-right: 1rem;
+}
+
+.footer-um a {
+   text-decoration: none;
+}
+
+.footer-lista {
+   letter-spacing: 1px;
+   line-height: 2;
+   list-style: none;
+}
+
+.footer-lista-um li {
+   margin-right: 7rem;
+   border-bottom: 0.5px solid #111111;
+   padding-bottom: 1px;
+}
+.footer-lista-um li:first-child {
+   border-bottom: none;
+}
+.footer-lista-um li:nth-child(2) {
+   padding-bottom: 0.5rem;
+   margin-bottom: 0.5rem;
+}
+
+.footer-lista-redes {
+   display: flex;
+   gap: 1rem;
+   padding: 1rem 1rem 0 0;
+}
+
+.h4-um {
+   display: block;
+   font-size: 3vh;
+   font-weight: 300;
+   text-transform: uppercase;
+   margin-bottom: 2rem;
+}
+
+.direitos {
+   color: #9C9C9C;
+   display: block;
+   max-width: 400px;
+   margin: 2rem auto;
+}
+
+@media (max-width: 700px) 
+{
+   .h4-um {
+       margin-top: 3rem;
+       margin-bottom: 1rem;
+   }
+   .footer-dentro {
+       grid-template-columns: 1fr;
+   }
+   .redes-um {
+       width: 1.5rem;
+   }
+}

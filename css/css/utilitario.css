@@ -1,0 +1,109 @@
+
+.poppins {
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    gap: 3rem;
+}
+
+.duas-colunas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gray {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #B2B2B2;
+}
+
+.estilo-h2 {
+    font-size: 10vh;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    margin-left: 3rem;
+}
+
+
+@media (max-width: 900px)
+{
+    .estilo-h2-branco
+    {
+        font-size: 8vh;
+    }
+}
+
+@media (max-width: 700px)
+{
+    .estilo-h2-branco
+    {
+        font-size: 6vh;
+    }
+}
+
+.img-01 {
+    width: 80%;
+    height: 80%;
+}
+.img-02 {
+    width: 70%;
+    height: 75%;
+}
+.img-03 {
+    width: 90%;
+    height: 90%;
+}
+
+.width {
+    width: 9rem;
+}
+
+.inscreva-se {
+    color: #332200;
+    background-image: linear-gradient(#FFBF00, #F2A50C);
+    font-size: 2.5vh;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.inscreva-se:hover {
+    background-image: linear-gradient(#FFBB00, #FFCA0D);
+}
+
+@media (max-width:700px)
+{
+    .inscreva-se
+{
+    font-size: 1.7vh;
+    padding: 0.5rem;
+}
+}
+
+img {
+    border-radius: 0.5rem;
+}
+
+.inscreva-se-cinza {
+    color: #CCCCCC;
+    background-color: #2E2E2E;
+    font-size: 2.5vh;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    width: 9rem;
+    display: block;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-top: 2rem;
+}
+
+.inscreva-se-cinza:hover {
+    color: #EDEDED;
+    background-image: linear-gradient(#404040, #595959);
+}
+

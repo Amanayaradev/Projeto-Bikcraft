@@ -1,0 +1,543 @@
+
+
+.main-um {
+    background-color: black;
+}
+
+.introdução {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 0.5rem 6rem;
+    max-width: 1200px; 
+    margin: 0 auto;   
+    color: white;
+    line-height: 1.1;
+    align-items: center;
+}
+
+.nimbus-um {
+    margin-bottom: -9rem;
+}
+
+.img {
+    object-fit: cover;
+    object-position: left right;
+    width: 100%;
+    height: 44rem;
+    border-radius: 0.4rem;
+}
+
+.box-um h1 {
+    font-size: 5vw;
+    max-width: 15ch;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2rem;
+}
+
+.box-um p {
+    color: #B2B2B2;
+    font-size: 3.8vh;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.botão-um {
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1.3rem 2.2rem;
+    color: #332200;
+    background-image: linear-gradient(#FFBF00, #F2A50C);
+    border-radius: 0.2rem;
+    margin-top: 1.5rem;
+}
+
+.botão-um:hover {
+    background-image: linear-gradient(#F2A50c, #FFBF00);
+}
+
+@media (max-width: 1000px)
+{
+    .introdução
+    {
+        padding: 0.5rem 2rem;
+    }
+
+    .box-um h1
+    {
+        font-size: 4vw;
+        margin-bottom: 1.5rem;
+    }
+
+    .box-um p 
+    {
+        font-size: 1.8vw;
+    }
+
+    .botão-um
+    {
+        padding: 0.5rem 1.5rem;
+    }
+
+    .nimbus-um
+    {
+        margin-bottom: -5rem;
+    }
+    .img
+    {
+        height: 35rem;
+    }
+
+}
+
+@media (max-width: 700px)
+{
+    .introdução 
+    {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .box-um h1
+    {
+        font-size: 5vh;
+        padding-top: 2rem;
+        max-width: initial;
+    }
+
+    .box-um p 
+    {
+        font-size: 3vh;
+    }
+
+    .botão-um
+    {
+        padding: 0.5rem 1.1rem;
+        font-size: 0.8rem;
+    }
+
+    .img
+    {
+        height: 10rem;
+    }
+}
+.main-dois {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main-dois h2 {
+    font-size: 10vh;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    padding: 10rem 0 2rem 4rem;
+}
+
+.galeria{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.galeria h3 {
+    color: black;
+}
+
+.galeria a {
+    text-decoration: none;
+}
+
+.bike {
+    max-width: 100%;
+}
+
+.preço-home {
+    display: grid;
+    grid-template-columns: 1fr 16fr;
+    padding: 1rem 0;
+}
+
+.preço {
+    display: block;
+    font-size: 3vh;
+    padding-top: 0.5rem;
+}
+
+.detalhe-home {
+    margin-top: 50%;
+    display: block;
+    width: 0.8rem;
+    height: 0.5rem;
+    background-color: #F2A50C;
+}
+
+@media (max-width: 1000px)
+{
+    .main-dois h2 
+    {
+        font-size: 9vh;
+        padding: 10rem 0 2rem 2rem;
+    }
+
+    .bike 
+    {
+        max-width: initial;
+        width: 18rem;
+    }
+
+    .galeria
+    {
+        overflow: scroll;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .main-dois h2 
+    {
+        font-size: 6vh;
+    }
+}
+
+.main-tres {
+    background-color: #111111;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 10rem auto;
+}
+
+
+.conteudo-main-tres {
+    max-width: 1400px;
+    padding: 2rem 4rem 2rem 8rem;
+}
+
+.conteudo-main-tres h2 {
+    font-size: 8.5vh;
+}
+
+.ferramentas-p {
+    line-height: 1.5;
+    font-size: 3.3vh;
+}
+
+.tec {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B2B2B2;
+    margin: 2rem 0;
+}
+
+.tecno-img {
+    max-width: 100%;
+    width: 150rem;
+    object-fit: cover;
+    object-position: center left;
+    height: 65rem;
+    margin-top: -8rem;
+    margin-bottom: -8rem;
+    margin-left: -2rem;
+}
+
+.modelo {
+    display: block;
+    font-size: 3.2vh;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: #FFBB00;
+    padding-bottom: 4rem;
+}
+
+.duas-lista {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.duas-lista li {
+    line-height: 1.5;
+}
+
+.duas-lista li .lista-p {
+    font-size: 2.8vh;
+}
+
+.icon-pag-um {
+    display: block;
+    width: 1.2rem;
+}
+
+.duas-lista h3 {
+    font-size: 3.2vh;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.duas-lista p{
+    padding-bottom: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B2B2B2;
+
+}
+
+@media (max-width: 900px)
+{
+    .tecno-img
+    {
+        display: none;
+    }
+    .conteudo-main-tres {
+        padding: 1rem 2rem;
+    }
+}
+
+
+@media (max-width: 500px) 
+{
+    .tec {
+        font-size: 2vh;
+        display: block;
+        margin: 0.8rem 0;
+    }
+    .conteudo-main-tres h2 
+    {
+        font-size: 4.5vh;
+    }
+    .ferramentas-p {
+        line-height: 1.3;
+        font-size: 2.9vh;
+    }
+    .modelo 
+    {
+        font-size: 2.5vh;
+        font-weight: 700;
+        padding-bottom: 2rem;
+    }
+    .duas-lista li .lista-p 
+    {
+        font-size: 2.2vh;
+    }
+}
+
+
+
+
+.main-quatro {
+    margin: 0 auto;
+}
+
+.h2 {
+    margin-top: -5rem;
+    font-size: 10vh;
+    margin-left: 3rem;
+}
+
+.parceiros {
+    margin: 0 auto;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 3rem;
+}
+
+.parceiros-img {
+    border-right: 2px solid #EDEDED;
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-top {
+    border-top: 2px solid #EDEDED;
+}
+
+.parceiros li:nth-child(4) {
+    border-right: none;
+}
+
+.footer-box-um {
+    margin-right: 6px;
+}
+
+.parceiros li:nth-child(8) {
+    border-right: none;
+}
+
+@media (max-width: 700px) 
+{
+    .estilo-h2 
+    {
+        font-size: 8vh;
+    }
+    .parceiros {
+        grid-template-columns: 1fr 1fr;
+    }
+    .border-top 
+    {
+        border-top: none;
+    }
+    .parceiros-img 
+    {
+        border-right: none;
+    }   
+}
+
+.main-cinco {
+    background-color: #FFBB00;
+}
+
+.depoimento-total {
+    align-items: end;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.depoimento-img {
+    object-fit: cover;
+    object-position: left right;
+    width: 100%;
+    height: 40rem;
+}
+
+.depoimento-q {
+    font-size: 4vh;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    margin-left: -3rem;
+    padding: 2rem 7rem;
+}
+
+.anajulia {
+    font-size: 3vh;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #664400;
+    display: block;
+    padding: 0 4rem 2rem;
+}
+
+@media (max-width: 950px)
+{
+    .depoimento-q {
+        text-align: center;
+        margin-left: 0;
+        padding: 2rem;
+    }
+}
+@media (max-width: 750px)
+{
+    .depoimento-total {
+        grid-template-columns: 1fr;
+    }
+    .depoimento-q {
+        font-size: 3vh;
+    }
+}
+
+.main-seis {
+    margin: 0 auto;
+    background-color: #111111;
+}
+
+.seguro {
+    color: white;
+    font-size: 8vh;
+    margin-left: 8rem;
+    padding: 3rem 0 ;
+}
+
+.preços {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-bottom: 7rem;
+}
+
+.preço-dois {
+    width: 23rem;
+    height: 100%;
+    padding: 3rem;
+    background-color: black;
+    color: white;
+}
+
+.cut {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lista-preço {
+    color: white;
+    list-style: none;
+}
+
+.lista-preço-ouro {
+    padding-bottom: 2rem;
+
+}
+
+.lista-preço li {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    padding-left: 1.3rem;
+    background-image: url(img/icones/lista.svg);
+    background-repeat: no-repeat;
+    background-position-x: -.01ch;
+    background-position-y: 1.9ch;
+    line-height: 2;
+}
+
+.tipo-prata,.mensal{
+    color: #595959;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.valor {
+    font-size: 5vh;
+    font-weight: 700;
+}
+
+.botao-ouro {
+    color: #332200;
+    background-color: #FFBB00;
+}
+
+.tipo-prata {
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tipo-ouro{
+    font-size: 5vh;
+    color: #FFBB00;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mensal {
+    margin-left: 3rem;
+    margin-top: -0.5rem;
+    font-size: 2vh;
+    font-weight: 700;
+    display: block;
+}
+.botao-prata {
+    background-color: #2E2E2E;
+    color: #EDEDED;
+}
+
+@media (max-width: 400px)
+{
+    .seguro {
+        margin-left: 1rem;
+    }
+}
