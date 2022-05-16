@@ -139,9 +139,14 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.galeria-bike li {
+    padding: 2rem;
+}
+
 .bikes {
     max-width: 25rem;
     width: 100%;
+    border-radius: 0.4rem;
 }
 
 .bike-preço {
