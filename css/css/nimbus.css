@@ -111,24 +111,24 @@
     }
 }
 
-.escolha {
+.escolha-nimbus {
     margin-bottom: 10rem;
     list-style: none;
     gap: 3rem;
 }
 
-.escolha h2 {
+.escolha-nimbus h2 {
     font-size: 10vh;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     padding: 5rem 0 3rem 4rem;
 }  
 
-.escolha h3 {
+.escolha-nimbus h3 {
     color: black;
 }
 
-.escolha a {
+.escolha-nimbus a {
     text-decoration: none;
 }
 

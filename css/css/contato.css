@@ -19,9 +19,8 @@
 
 .contatos-back {
     padding-top: 4.5rem;
-    background: linear-gradient(#111111 50%, white 50%);
+    background: linear-gradient(#111111 50%, #ebe7e7 50%);
 }
-
 
 .loja,
 .enviar-mensagem {
@@ -103,20 +102,92 @@ button {
     border-radius: 4px;
 }
 
-
-.dress-maps {
-    padding: 1rem 0;
-    border-left: 1px solid #EDEDED;
+.escolha-maps {
+    background-color: #EDEDED;
 }
-.cont {
-    padding: 1rem;
-    max-width: 20ch;
+
+.dentro-escolha-maps {
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .lista-maps {
-    max-width: 900px;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem;
+    gap: 2rem;
+}
 
+.map {
+    max-width: 100%;
+    border-radius: 0.4rem 0.4rem 0 0;
+}
+
+.map-box {
+    background-color:#fff;
+    border-radius: 0.4rem;
+    padding-bottom: 2rem;
+}
+
+
+.adress-map {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+}
+
+.link-adress {
+    display: flex;
+    align-self: center;
+    color: #949494;
+    border-left: 1px solid #c0c0c0;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.teste-detalhe {
+    padding: 2rem 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 15fr;
+    align-items: center;
+}
+
+.detalhe-maps {
+    margin-left: 0.5rem;
+    display: block;
+    width: 0.8rem;
+    height: 0.5rem;
+    background-color: #F2A50C;
+}
+
+.space-h3 {
+    color: #000;
+}
+
+.tempo {
+    padding: 2rem 0.3rem 2rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.hora {
+    align-items: center;
+    color: #000
+}
+
+.hora p {
+    font-size: 2.5vh;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    
+}
+
+@media (max-width: 1000px){
+    .adress-map {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 800px) 
@@ -131,9 +202,6 @@ button {
     }
 
     .enviar-mensagem {
-        border-radius: 0 0 5px 5px;
-        background-color: #fff;
-        margin-bottom: 5rem;
         border-radius: initial;
     }
     .dividir-formulário {
@@ -147,8 +215,16 @@ button {
     
     .lista-contato li a:nth-child(2) {
         padding-bottom: 0;
-    } 
+    }    
+    
+    .lista-maps {
+        display: flex;    
+        flex-wrap: wrap;
 }
+}
+
+
+
 @media (max-width: 550px) 
 {
     .lista-contato {
