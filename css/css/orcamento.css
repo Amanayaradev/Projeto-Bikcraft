@@ -1,0 +1,239 @@
+.total-orçamento-total {
+    background: linear-gradient(#111111 50%, #E5E5E5 50%);
+    padding-bottom: 5rem;
+
+}
+
+.orçamento-total {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    max-width: 1200px;
+    margin: 0 auto 5rem auto;
+}
+
+.bikcraft-seguro {
+    align-content: start;
+    background-color: #000;
+    color: #b8b7b7;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+}
+
+.bikcraft-seguro > * {
+    grid-column: 1/-1;
+    gap: 1rem;
+}
+
+.bikcraft-seguro > label {
+    grid-column: initial;
+}
+
+.bikcraft-seguro label {
+    font: 600 1rem/1.5 arial;
+    background-color: #222222;
+    padding: 12px 16px;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.bikcraft-seguro label:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.bikcraft-seguro label::before {
+    content: "";
+    display: inline-block;
+    box-sizing: border-box;
+    width: 12px;
+    height: 12px;
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 50%;
+}
+
+.bikcraft-seguro input:checked + label:before {
+    border-color: #000000;
+    box-shadow: inset 0 0 0 3px #fff, inset 0 0 0 6px #000;
+}
+
+.bikcraft-seguro input {
+    display: none;
+}
+
+.bikcraft-seguro input:checked + label {
+    box-shadow: 0 0 0 2px #FFBB00;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+}
+
+.bikcraft-seguro label span {
+    display: none;
+}
+.bikcraft-seguro input:checked + label span {
+    display: inline-block;
+}
+
+.orçamento {
+    display: none;
+}
+
+#bikcraft:checked ~ #orçamento-bikcraft,
+#seguro:checked ~ #orçamento-seguro {
+    display: block;
+}
+
+.bikcraft-seguro input:checked + label + .orçamento-detalhe {
+    display: grid;
+}
+
+.orçamento-detalhe {
+    font-size: 2.5vh;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 1rem 0;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    align-items: center;
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    line-height: 1.5;
+}
+
+.orçamento-detalhe li {
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.orçamento-detalhe li img {
+    width: 20px;
+}
+.img-orçamento {
+    max-width: 100%;
+    width: 15rem;
+    object-fit: cover;
+    object-position: center;
+    height: 8rem;
+
+}
+
+.detalhe-lista-seguro {
+    justify-content: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+.detalhe-lista-seguro li {
+    width: 30ch;
+}
+
+.detalhe-lista-seguro li::before {
+    content: "";
+    display: inline-block;
+    height: 12px;
+    border: 1px solid rgb(73, 73, 73);
+}
+
+
+
+
+
+
+
+/* orçamento */
+
+.text-form label,
+.text-form p {
+    display: block;
+    font: 600 1rem/1.5 Arial, Helvetica, sans-serif;
+}
+
+.h4-orc {
+    margin: 2rem 0;
+    font: 600 0.9rem/3 Arial, Helvetica, sans-serif;
+    color: #8b8b8b;
+}
+.h4-orc::before {
+    justify-content: center;
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 12px;
+    background-color: #FFBB00;
+    margin: 0 0.7rem 0 -1rem ;
+}
+
+.box-form{
+    background: #F7F7F7;
+    padding: 0.5rem;
+    font: 400 1rem/1.5 roboto, sans-serif;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.teste-form option {
+    text-decoration: none;
+}
+
+.form-adress {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.first-form :nth-child(3),
+.first-form :nth-child(4) {
+    grid-column: span 2;
+}
+
+.box_termo {
+    align-items: center;
+    display: flex;
+    gap: 0.7rem;
+}
+
+.texto-box {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #6b6b6b;
+}
+
+.detalhe-entrega { 
+    display: grid;
+    grid-template-columns: 1fr 35fr;
+    align-items: center;
+    margin-left: -1rem;
+}
+
+.dados-orçamento {
+    background-color: white;
+    padding: 4rem;
+}
+
+@media (max-width: 900px) {
+    .orçamento-total {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 400px) 
+{
+    .orçamento-dentro {
+        grid-template-columns: 1fr;
+    }      
+    .form-adress 
+    {
+        display: block;
+    }
+}
+
+

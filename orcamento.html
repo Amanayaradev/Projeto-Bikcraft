@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento</title>
+    <link rel="stylesheet" href="./css/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu-total">
+            <a href="index.html"><img class="bikcraft" src="img/bikcraft.svg" alt="bikcraft"></a>
+        <nav>
+            <ul class="menu">
+                <li class="menu-item"> <a class="menu-first" href="bicicletas.html">Bicicletas</a> </li>
+                <li class="menu-item"> <a class="menu-first" href="seguro.html">Seguros</a> </li>
+                <li class="menu-item"> <a class="menu-first" href="contato.html">Contato</a> </li>
+            </ul>
+        </nav>         
+        </div>
+    </header>
+    <main>
+        <div class="c11 gray box-um-bike">
+            <div class="box-dentro-um">
+                <span class="span-block">COTAÇÕES NO SEU EMAIL</span>
+                <h2 class="estilo-h2-branco">solicite um orçamento<span class="ponto">.</span></h2>
+            </div>
+        </div>
+        <section class="total-orçamento-total">
+                <div class="orçamento-total">
+
+                    <div class="bikcraft-seguro">
+                            <h4 class="h4-orc">BIKCRAFT OU SEGURO ?</h4> 
+                        <input type="radio" name="tipo1" value="bikcraft" id="bikcraft">
+                        <label for="bikcraft"> Bikraft</label>
+                        <input type="radio" name="tipo1" value="seguro" id="seguro">
+                        <label for="seguro">Seguro</label>
+        
+                        <div class="orçamento" id="orçamento-bikcraft">
+                                <h4 class="h4-orc">ESCOLHA A SUA:</h4> 
+                            <input type="radio" name="produto" value="nimbus" id="nimbus">
+                            <label for="nimbus">Nimbus Stark <span>R$ 3000</span></label>
+                            <div class="orçamento-detalhe">
+                                <ul class="lista-none">
+                                    <li>
+                                        <img src="img/icones/eletrica.svg" alt="">
+                                        Motor Elétrico
+                                    </li>
+                                    <li>
+                                        <img src="img/icones/carbono.svg" alt="">
+                                        Fibra de Carbono
+                                    </li>
+                                    <li>
+                                        <img src="img/icones/velocidade.svg" alt="">
+                                        40 km/h
+                                    </li>
+                                    <li>
+                                        <img src="img/icones/rastreador.svg" alt="">
+                                        Rastreador
+                                    </li>
+                                </ul>
+                                <img class="img-orçamento" src="img/bicicletas/nimbus.jpg" alt="bicicleta preta">
+                            </div>
+        
+                            <input type="radio" name="produto" value="magic" id="magic">
+                            <label for="magic">Magic Might <span>R$ 2000</span></label>
+                            <div class="orçamento-detalhe">
+                                <ul class="lista-none">
+                                <li>
+                                    <img class="img-ico" src="img/icones/eletrica.svg" alt="">
+                                    Motor Elétrico
+                                </li>
+                                <li>
+                                    <img class="img-ico" src="img/icones/carbono.svg" alt="">
+                                    Fibra de Carbono
+                                </li><li>
+                                    <img class="img-ico" src="img/icones/velocidade.svg" alt="">
+                                    40 km/h
+                                </li><li>
+                                    <img class="img-ico" src="img/icones/rastreador.svg" alt="">
+                                    Rastreador
+                                </li>
+                            </ul>
+                            <img class="img-orçamento" src="img/bicicletas/magic.jpg" alt="">
+                            </div>
+        
+                            <input type="radio" name="produto" value="nebula" id="nebula">
+                            <label for="nebula">Nebula Cosmic <span>R$ 1000</span></label>
+                            <div class="orçamento-detalhe">
+                                <ul class="lista-none">
+                                    <li>
+                                        <img class="img-ico" src="img/icones/eletrica.svg" alt="">
+                                        Motor Elétrico
+                                    </li>
+                                    <li>
+                                        <img class="img-ico" src="img/icones/carbono.svg" alt="">
+                                        Fibra de Carbono
+                                    </li><li>
+                                        <img class="img-ico" src="img/icones/velocidade.svg" alt="">
+                                        40 km/h
+                                    </li><li>
+                                        <img class="img-ico" src="img/icones/rastreador.svg" alt="">
+                                        Rastreador
+                                    </li>
+                                </ul>
+                            <img class="img-orçamento" src="img/bicicletas/nebula.jpg" alt="">
+                            </div>
+                        </div>
+        
+                        <div class="orçamento" id="orçamento-seguro">
+                                <h4 class="h4-orc">ESCOLHA O PLANO:</h4> 
+                            <input type="radio" name="seguro" value="ouro" id="ouro">
+                            <label for="ouro">Ouro <span>R$ 299</span></label>
+                            <div class="orçamento-detalhe detalhe-lista-seguro">
+                                <ul>
+                                    <li>Cinco trocas por ano</li>
+                                    <li>Assistência especial</li>
+                                    <li>Suporte 24h</li>
+                                    <li>Cobertura nacional</li>
+                                    <li>Desconto em parceiros</li>
+                                    <li>Acesso ao Clube Bikcraft</li>
+                                </ul>
+                            </div>
+        
+                            <input type="radio" name="seguro" value="prata" id="prata">
+                            <label for="prata">prata <span>R$ 199</span></label>
+                            <div class="orçamento-detalhe detalhe-lista-seguro">
+                                <ul>
+                                    <li>Duas trocas por ano</li>
+                                    <li>Assistência técnica</li>
+                                    <li>Suporte 08h às 18h</li>
+                                    <li>Cobertura estadual</li>
+                                </ul>
+                            </div>
+                        </div>
+        
+                    </div>
+        
+                    <div class="dados-orçamento">
+                        <form class="form-orçamento" action="./">
+                                <div>
+                                    <h4 class="h4-orc">DADOS PESSOAIS</h4> 
+                                    <div class="form-adress first-form">
+                                    <div class="text-form">
+                                        <label for="nome">Nome</label>
+                                        <input class="box-form" type="text" id="nome">
+                                    </div>
+                                    <div class="text-form">
+                                        <label for="last-name">Sobrenome</label>
+                                        <input class="box-form" type="text" id="Sobrenome">
+                                    </div>
+                                    <div class="text-form">
+                                        <label for="cpf">CPF</label>
+                                        <input class="box-form" type="number" id="cpf" required placeholder="000.000.000-00">
+                                    </div>
+                                    <div class="text-form">
+                                        <label for="email">Email</label>
+                                        <input class="box-form" type="text" id="email">
+                                    </div>
+                                </div>
+                                <h4 class="h4-orc">ENTREGA</h4> 
+                            <div class="form-adress">
+                                    <div class="text-form">
+                                        <label for="cep">CEP</label>
+                                        <input class="box-form" type="number" id="cpf">
+                                    </div>
+                                    <div class="text-form">
+                                        <label for="nome">Número:</label>
+                                        <input class="box-form" type="number" id="number">
+                                    </div>
+                                    <div class="text-form">
+                                        <label for="address">Logradouro</label>
+                                        <input class="box-form" type="text" id="nome" required placeholder="Rua, avenida...">
+                                    </div>
+                                    <div class="text-form">
+                                        <label for="bairro">Bairro</label>
+                                        <input class="box-form" type="text" id="bairro">
+                                    </div>
+                                    <div class="text-form">
+                                        <label for="city">Cidade</label>
+                                        <input class="box-form" type="text" id="nome">
+                                    </div>
+                                    <div class="text-form">
+                                        <label for="state">Estado</label>
+                                        <select class="box-form " name="estados-brasil">
+                                            <option value="AC">Acre</option>
+                                            <option value="AL">Alagoas</option>
+                                            <option value="AP">Amapá</option>
+                                            <option value="AM">Amazonas</option>
+                                            <option value="BA">Bahia</option>
+                                            <option value="CE">Ceará</option>
+                                            <option value="DF">Distrito Federal</option>
+                                            <option value="ES">Espírito Santo</option>
+                                            <option value="GO">Goiás</option>
+                                            <option value="MA">Maranhão</option>
+                                            <option value="MT">Mato Grosso</option>
+                                            <option value="MS">Mato Grosso do Sul</option>
+                                            <option value="MG">Minas Gerais</option>
+                                            <option value="PA">Pará</option>
+                                            <option value="PB">Paraíba</option>
+                                            <option value="PR">Paraná</option>
+                                            <option value="PE">Pernambuco</option>
+                                            <option value="PI">Piauí</option>
+                                            <option value="RJ">Rio de Janeiro</option>
+                                            <option value="RN">Rio Grande do Norte</option>
+                                            <option value="RS">Rio Grande do Sul</option>
+                                            <option value="RO">Rondônia</option>
+                                            <option value="RR">Roraima</option>
+                                            <option value="SC">Santa Catarina</option>
+                                            <option value="SP">São Paulo</option>
+                                            <option value="SE">Sergipe</option>
+                                            <option value="TO">Tocantins</option>
+                                        </select>
+                                    </div>
+                                    <div class="span2  box_termo">
+                                            <input class="input_box" name="checkbox" type="checkbox" value="termo" />
+                                            <p class="texto-box">li e aceito os <a class="link-none" href="#">termos e condições.</a></p>
+                                    </div>
+                    
+                                        <input class="link-none botao inscreva-se" type="submit" value="SOLICITAR ORÇAMENTO" />  
+                        </form>  
+                    </div>
+                </div>
+            </section>
+    </main>
+    <footer class="footer-um">
+        <div class="footer-dentro">
+                <a href="#"><img class="footer-bickraft" src="img/bikcraft.svg" alt="bikcraft"></a>
+            <div footer-box-um>
+                <h4 class="h4-um">Contato</h4>
+                <ul class="footer-lista footer-lista-um">
+                    <li>
+                        <a class="gray" href="tel:+55 21 9999-9999">+55 21 9999-9999</a>
+                    </li>
+                    <li>
+                        <a class="gray" href="mailto:amanayaradev@gmail.com">amanayaradev@gmail.com</a>
+                    </li>
+                    <li>
+                        <address class="gray">Rua Ali Perto, 42 - Botafogo <br> Rio de Janeiro - RJ</address>
+                    </li>
+                </ul>
+                <ul class="footer-lista-redes">
+                    <a href="#">
+                        <img class="redes-um" src="img/redes/instagram.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img class="redes-um" src="img/redes/facebook.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img class="redes-um" src="img/redes/youtube.svg" alt="">
+                    </a>
+                </ul>
+            </div>
+            <div>
+                <h4 class="h4-um">Informações</h4>
+                <ul class="footer-lista">
+                    <li>
+                        <a class="gray" href="#">Bicicletas</a>
+                    </li>
+                    <li>
+                        <a class="gray" href="#">Seguros</a>
+                    </li>
+                    <li>
+                        <a class="gray" href="#">Contato</a>
+                    </li>
+                    <li>
+                        <a class="gray" href="#">Termos e Condições</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <span class="direitos">
+         Bikcraft © Alguns direitos reservados.
+        </span>
+    </footer>
+</body>
+</html>
