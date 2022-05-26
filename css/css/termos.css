@@ -1,0 +1,26 @@
+.maior-back {
+    padding-bottom: 3rem;
+}
+
+.termos {
+    padding-top: 4rem;
+}
+
+.termos div {
+    display: grid;
+    gap: 2rem;
+}
+
+.termos div h3,
+.termos div p{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 2;
+}
+
+.lista-condições {
+    background-color: aqua;
+    padding: 2rem;
+}
+
+.dentro-lista {
+}
