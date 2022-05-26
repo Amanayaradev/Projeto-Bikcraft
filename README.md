@@ -1,2 +1,2 @@
 # amanayaradev-projetobikraft
-iniciando o projeto da Origamide  com html e css
+iniciando o projeto da Origamid com HTML e CSS!
