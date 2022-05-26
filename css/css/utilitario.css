@@ -85,6 +85,7 @@
 img {
     border-radius: 0.5rem;
 }
+}
 
 .inscreva-se-cinza {
     color: #CCCCCC;
@@ -105,7 +106,7 @@ img {
     color: #EDEDED;
     background-image: linear-gradient(#404040, #595959);
 }
-}
+
 
 /* estilos página um */
 
