@@ -1,2 +1,3 @@
 # amanayaradev-projetobikraft
-iniciando o projeto da Origamid com HTML e CSS!
+projeto da Origamid totalmente com HTML e CSS!.
+link para visualização do projeto: 'https://projeto-bikcraft-black.vercel.app/'.
